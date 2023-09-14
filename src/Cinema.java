@@ -149,7 +149,7 @@ public class Cinema {
         int totalIncome = (totalSeats / 2 * FRONT_TICKET) + (totalSeats / 2 * BACK_TICKET);
 
         String result = String.format(
-                "Number of purchased tickets: %d   \n"
+                "Number of purchased tickets: %d           \n"
                         + "Percentage: %.2f%%              \n"
                         + "Current income: $%d             \n"
                         + "Total income: $%d               \n",
